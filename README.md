@@ -7,4 +7,4 @@ Urho.Net from https://github.com/Urho-Net/Urho.Net
 
 ## Sample Screen
 
-![game image](CardGameScreen.png)
+![game image](DoomScreen.png)
