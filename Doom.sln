@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doom", "Doom.csproj", "{92444578-361B-443E-AF13-55787ECA430B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mmDoomLib", "..\..\mmDoomLib\mmDoomLib\mmDoomLib\mmDoomLib.csproj", "{BA61ECD1-BC85-4461-9FAE-302789CAD45D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mmDoomLib", "mmDoomLib\mmDoomLib.csproj", "{6A2154AC-6EC2-45F3-B161-F202C5A6ADCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{92444578-361B-443E-AF13-55787ECA430B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92444578-361B-443E-AF13-55787ECA430B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92444578-361B-443E-AF13-55787ECA430B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA61ECD1-BC85-4461-9FAE-302789CAD45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA61ECD1-BC85-4461-9FAE-302789CAD45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA61ECD1-BC85-4461-9FAE-302789CAD45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA61ECD1-BC85-4461-9FAE-302789CAD45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2154AC-6EC2-45F3-B161-F202C5A6ADCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2154AC-6EC2-45F3-B161-F202C5A6ADCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2154AC-6EC2-45F3-B161-F202C5A6ADCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2154AC-6EC2-45F3-B161-F202C5A6ADCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

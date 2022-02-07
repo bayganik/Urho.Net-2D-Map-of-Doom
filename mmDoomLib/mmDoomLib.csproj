@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DoomFormatMap\**" />
+    <Compile Remove="HexenFormatMap\**" />
+    <Compile Remove="WadLoader\**" />
+    <EmbeddedResource Remove="DoomFormatMap\**" />
+    <EmbeddedResource Remove="HexenFormatMap\**" />
+    <EmbeddedResource Remove="WadLoader\**" />
+    <None Remove="DoomFormatMap\**" />
+    <None Remove="HexenFormatMap\**" />
+    <None Remove="WadLoader\**" />
+  </ItemGroup>
+
+</Project>

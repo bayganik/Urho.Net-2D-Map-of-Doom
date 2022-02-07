@@ -49,6 +49,16 @@
     <None Remove="libs\dotnet\bcl\**" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Compile Remove="mmDoomLib - Copy\**" />
+    <Compile Remove="mmDoomLib\**" />
+    <EmbeddedResource Remove="mmDoomLib - Copy\**" />
+    <EmbeddedResource Remove="mmDoomLib\**" />
+    <None Remove="mmDoomLib - Copy\**" />
+    <None Remove="mmDoomLib\**" />
+  </ItemGroup>
+
   <ItemGroup>
     <Compile Remove="libs\dotnet\bcl\ios\Consts.cs" />
   </ItemGroup>
@@ -175,7 +185,7 @@
   </Target>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\mmDoomLib\mmDoomLib\mmDoomLib\mmDoomLib.csproj" />
+    <ProjectReference Include="mmDoomLib\mmDoomLib.csproj" />
   </ItemGroup>
 
   <!-- needed for intellisense -->
